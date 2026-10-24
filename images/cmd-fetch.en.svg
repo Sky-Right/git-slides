@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" font-family="Droid Serif, Georgia, serif">
+<rect x="100" y="60" width="360" height="150" rx="14" fill="#fdf3d7" stroke="#a7aeb8" stroke-width="1.5"/>
+<rect x="640" y="60" width="360" height="150" rx="14" fill="#f2eafc" stroke="#a7aeb8" stroke-width="1.5"/>
+<text x="280.0" y="132" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="23" font-weight="bold" fill="#1a1a1a">Local Repository</text>
+<text x="280.0" y="168" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="15" fill="#555555">where history lives</text>
+<text x="820.0" y="132" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="23" font-weight="bold" fill="#1a1a1a">Remote Repository</text>
+<text x="820.0" y="168" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="15" fill="#555555">the shared copy</text>
+<text x="550.0" y="34" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="26" font-weight="bold" fill="#c05621">git fetch</text>
+<polyline points="636,135.0 468,135.0" fill="none" stroke="#c05621" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="468.0,135.0 479.0,129.5 479.0,140.5" fill="#c05621"/>
+<text x="550.0" y="228" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="16" fill="#555555">download new versions, but do not merge</text>
+</svg>

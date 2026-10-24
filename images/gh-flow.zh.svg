@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="340" viewBox="0 0 1160 340" font-family="Droid Serif, Georgia, serif">
+<path transform="translate(1072.00,42.00) scale(2.5000)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" fill="#777777"/>
+<text x="1118" y="70" text-anchor="start" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="18" font-weight="bold" fill="#777777">GitHub</text>
+<rect x="52" y="130" width="150" height="110" rx="12" fill="none" stroke="#777777" stroke-width="2.2"/>
+<circle cx="127.0" cy="160" r="16" fill="#777777"/>
+<text x="127.0" y="166" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="16" font-weight="bold" fill="#ffffff">1</text>
+<text x="127.0" y="196" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">clone / pull</text>
+<text x="127.0" y="222" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="12.5" fill="#777777">从 main 开始</text>
+<rect x="234" y="130" width="150" height="110" rx="12" fill="none" stroke="#1a1a1a" stroke-width="2.2"/>
+<circle cx="309.0" cy="160" r="16" fill="#1a1a1a"/>
+<text x="309.0" y="166" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="16" font-weight="bold" fill="#ffffff">2</text>
+<text x="309.0" y="196" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">开分支 + commit</text>
+<text x="309.0" y="222" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="12.5" fill="#777777">你的改动</text>
+<rect x="416" y="130" width="150" height="110" rx="12" fill="none" stroke="#2640c0" stroke-width="2.2"/>
+<circle cx="491.0" cy="160" r="16" fill="#2640c0"/>
+<text x="491.0" y="166" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="16" font-weight="bold" fill="#ffffff">3</text>
+<text x="491.0" y="196" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">push</text>
+<text x="491.0" y="222" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="12.5" fill="#777777">把分支传上去</text>
+<rect x="598" y="130" width="150" height="110" rx="12" fill="none" stroke="#c05621" stroke-width="2.2"/>
+<circle cx="673.0" cy="160" r="16" fill="#c05621"/>
+<text x="673.0" y="166" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="16" font-weight="bold" fill="#ffffff">4</text>
+<text x="673.0" y="196" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">开 PR</text>
+<text x="673.0" y="222" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="12.5" fill="#777777">请求合并</text>
+<rect x="780" y="130" width="150" height="110" rx="12" fill="none" stroke="#2f8f46" stroke-width="2.2"/>
+<circle cx="855.0" cy="160" r="16" fill="#2f8f46"/>
+<text x="855.0" y="166" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="16" font-weight="bold" fill="#ffffff">5</text>
+<text x="855.0" y="196" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">review + merge</text>
+<text x="855.0" y="222" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="12.5" fill="#777777">团队通过</text>
+<rect x="962" y="130" width="150" height="110" rx="12" fill="none" stroke="#1a1a1a" stroke-width="2.2"/>
+<circle cx="1037.0" cy="160" r="16" fill="#1a1a1a"/>
+<text x="1037.0" y="166" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="16" font-weight="bold" fill="#ffffff">6</text>
+<text x="1037.0" y="196" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">pull</text>
+<text x="1037.0" y="222" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="12.5" fill="#777777">把合并拉回来</text>
+<line x1="202" y1="185.0" x2="234" y2="185.0" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="234" y1="185.0" x2="224.03061434259686" y2="189.6488008791477" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="234" y1="185.0" x2="224.03061434259686" y2="180.3511991208523" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="384" y1="185.0" x2="416" y2="185.0" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="416" y1="185.0" x2="406.03061434259683" y2="189.6488008791477" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="416" y1="185.0" x2="406.03061434259683" y2="180.3511991208523" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="566" y1="185.0" x2="598" y2="185.0" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="598" y1="185.0" x2="588.0306143425969" y2="189.6488008791477" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="598" y1="185.0" x2="588.0306143425969" y2="180.3511991208523" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="748" y1="185.0" x2="780" y2="185.0" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="780" y1="185.0" x2="770.0306143425969" y2="189.6488008791477" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="780" y1="185.0" x2="770.0306143425969" y2="180.3511991208523" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="930" y1="185.0" x2="962" y2="185.0" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="962" y1="185.0" x2="952.0306143425969" y2="189.6488008791477" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="962" y1="185.0" x2="952.0306143425969" y2="180.3511991208523" stroke="#1a1a1a" stroke-width="2.4"/>
+<text x="218.0" y="292" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="13" fill="#1a1a1a">在你的电脑上</text>
+<path transform="translate(601.00,276.00) scale(1.2500)" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" fill="#c05621"/>
+<text x="681.0" y="292" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="13" fill="#c05621">在 GitHub 上</text>
+<text x="1037.0" y="292" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="13" fill="#1a1a1a">回到你的电脑</text>
+</svg>

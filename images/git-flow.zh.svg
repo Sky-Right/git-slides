@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" font-family="Droid Serif, Georgia, serif">
+  <rect x="6" y="150" width="248" height="140" rx="12" fill="#e3edfb" stroke="#a7aeb8" stroke-width="1.5"/>
+  <text x="130.0" y="229.72" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" font-size="27" font-weight="bold" fill="#1a1a1a">工作区</text>
+  <rect x="346" y="150" width="248" height="140" rx="12" fill="#e7f6ec" stroke="#a7aeb8" stroke-width="1.5"/>
+  <text x="470.0" y="229.72" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" font-size="27" font-weight="bold" fill="#1a1a1a">暂存区</text>
+  <rect x="686" y="150" width="248" height="140" rx="12" fill="#fdf3d7" stroke="#a7aeb8" stroke-width="1.5"/>
+  <text x="810.0" y="229.72" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" font-size="27" font-weight="bold" fill="#1a1a1a">本地仓库</text>
+  <rect x="1026" y="150" width="248" height="140" rx="12" fill="#f2eafc" stroke="#a7aeb8" stroke-width="1.5"/>
+  <text x="1150.0" y="229.72" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif" font-size="27" font-weight="bold" fill="#1a1a1a">远端仓库</text>
+  <line x1="262" y1="220.0" x2="329" y2="220.0" stroke="#444444" stroke-width="2.6"/>
+  <polygon points="338,220.0 329,214.42 329,225.58" fill="#444444"/>
+  <text x="300.0" y="194.0" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="15" fill="#2640c0">git add</text>
+  <line x1="602" y1="220.0" x2="669" y2="220.0" stroke="#444444" stroke-width="2.6"/>
+  <polygon points="678,220.0 669,214.42 669,225.58" fill="#444444"/>
+  <text x="640.0" y="194.0" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="13" fill="#2640c0">git commit</text>
+  <line x1="942" y1="220.0" x2="1009" y2="220.0" stroke="#444444" stroke-width="2.6"/>
+  <polygon points="1018,220.0 1009,214.42 1009,225.58" fill="#444444"/>
+  <text x="980.0" y="194.0" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="15" fill="#2640c0">git push</text>
+</svg>

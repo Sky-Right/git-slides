@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Git</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="theme/workshop.css">
+  </head>
+  <body>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <textarea id="source" style="display: none;">class: title
+
+# Git
+
+.subtitle[
+Tianyou Yu
+]
+
+.subtitle[
+October 2026
+]
+
+---
+
+# Why use Git?
+
+- Git saves every change. You can go back to any point.
+- Two people can edit one project. Git stops their changes from overwriting each other.
+- You only need a few commands. The rest can wait.
+- Now that we have AI, you do not need to master every command. Know what it does, and an agent can run it.
+- VS Code has buttons for all of these, so you rarely type commands — but do learn the main ones.
+
+---
+
+class: pic
+
+# Your code lives in four places
+
+![Working directory, staging area, local repository, remote repository](images/git-areas2.en.svg)
+
+---
+
+# The four places, in plain words
+
+- **Working directory** — the files you see and edit.
+- **Staging area** — the files you picked for the next commit.
+- **Local repository** — the `.git` folder that keeps every commit.
+- **Remote repository** — a shared copy, usually on GitHub.
+
+---
+
+# What does git init do?
+
+![a plain folder becomes a repository](images/git-init.en.svg)
+
+- `git init` makes a hidden `.git` folder in your directory.
+- The `.git` folder is the local repository — every commit lives there.
+- It changes only this one folder. Nothing is uploaded yet.
+
+---
+
+class: pic
+
+# Git is distributed
+
+![every machine keeps the whole history](images/git-distributed.en.svg)
+
+---
+
+# Distributed, in plain words
+
+- Git is distributed: every machine keeps the whole history, not just the files.
+- You can commit, branch, and read history with no internet.
+- If GitHub is down, everyone still has a full copy. Nothing is lost.
+- The remote is just a shared meeting point, not the only copy.
+
+---
+
+# git add
+
+![git add moves a file into the staging area](images/cmd-add.en.svg)
+
+- `git add` moves a file into the staging area.
+- You pick the files that go in the next commit. Nothing is saved yet.
+- `git add .` stages every changed file at once.
+
+---
+
+# git commit
+
+![git commit saves the staged files](images/cmd-commit.en.svg)
+
+- `git commit` saves the staged files as a new commit.
+- Write a short message that says what changed.
+- A commit is a saved version you can always come back to.
+
+---
+
+# git push
+
+![git push uploads commits to the remote](images/cmd-push.en.svg)
+
+- `git push` uploads your commits to the remote.
+- After that, other people can see them.
+
+---
+
+# git fetch
+
+![git fetch downloads commits from the remote](images/cmd-fetch.en.svg)
+
+- `git fetch` downloads new commits from the remote.
+- It only updates your local repository. Your files stay as they are.
+
+---
+
+# git pull
+
+![git pull fetches and merges](images/cmd-pull.en.svg)
+
+- `git pull` is `git fetch` plus `git merge`.
+- It downloads new commits and puts them in your working directory.
+- Run it before you start, so you begin from the latest.
+
+---
+
+# git clone
+
+![git clone copies a whole project](images/cmd-clone.en.svg)
+
+- `git clone` copies a whole project from the remote to your machine.
+- You get the files and the full history.
+
+---
+
+# git checkout
+
+![git checkout brings a saved version back](images/cmd-checkout.en.svg)
+
+- `git checkout` brings back a saved version of a file.
+- Use it to undo a change you do not want.
+- `git restore` is the newer name for the same job.
+
+---
+
+# The commands you will use daily
+
+- `git init` — start a repository in this folder
+- `git status` — see what changed
+- `git add .` — stage everything
+- `git commit -m "message"` — save a commit
+- `git push` / `git pull` — sync with the remote
+- `git log` — read the history
+
+---
+
+class: lab
+
+# A real example, start to finish
+
+```bash
+git clone https://github.com/team/project.git   # copy a project
+cd project
+git status                                       # check the state
+git add notes.md                                 # stage one file
+git commit -m "add meeting notes"                # save it
+git push                                         # upload it
+```
+
+---
+
+class: pic
+
+# Branches let you work on two things at once
+
+![A feature branch splits off from main and merges back](images/git-branches2.en.svg)
+
+---
+
+# Branches, in plain words
+
+- A branch is a separate line of work.
+- `main` is the main line. Make a `feature` branch to try something new.
+- When it is done, merge it back.
+
+---
+
+# The branch commands
+
+- `git branch feature` — make a new branch
+- `git switch feature` — move onto it (older: `git checkout feature`)
+- `git merge feature` — bring its commits back into `main`
+
+---
+
+class: title
+
+# A feature, step by step
+
+---
+
+# Step 1 · first commit
+
+```bash
+git init
+git add notes.txt
+git commit -m "first"
+```
+
+![commit #1 on main](images/ex-step1.en.svg)
+
+---
+
+# Step 2 · second commit
+
+```bash
+git add notes.txt
+git commit -m "more notes"
+```
+
+![commit #2 on main](images/ex-step2.en.svg)
+
+---
+
+# Step 3 · make a branch
+
+```bash
+git branch feature
+```
+
+![feature points at the same commit](images/ex-step3.en.svg)
+
+---
+
+# Step 4 · work on the branch
+
+```bash
+git switch feature
+git add notes.txt
+git commit -m "new idea"
+```
+
+![a new commit on feature](images/ex-step4.en.svg)
+
+---
+
+# Step 5 · merge it back
+
+```bash
+git switch main
+git merge feature
+```
+
+![a merge commit joins the two lines](images/ex-step5.en.svg)
+
+---
+
+# Step 6 · push to the remote
+
+```bash
+git push
+```
+
+![the remote now has every commit](images/ex-step6.en.svg)
+
+---
+
+class: title
+
+# Working together on GitHub
+
+---
+
+# What is GitHub?
+
+![the GitHub mark](images/github-mark.svg)
+
+- GitHub is a home for your remote repository, with a web page around it.
+- A **pull request** (PR) asks the team: "please merge my branch into `main`."
+- Most teams merge through a PR. They do not push straight to `main`.
+
+---
+
+class: pic
+
+# The pull-request flow
+
+![six steps from branch to merge](images/gh-flow.en.svg)
+
+---
+
+# The flow, in plain words
+
+- **1** · Pull or clone, so you start from the shared `main`.
+- **2** · Make a branch and commit your changes.
+- **3** · Push the branch to GitHub.
+- **4** · Open a pull request: "please merge my branch into `main`."
+- **5** · The team reviews, comments, and clicks merge.
+- **6** · Pull the updated `main` back to your machine.
+
+---
+
+class: title
+
+# Your first pull request, step by step
+
+---
+
+# Step 1 · clone the shared repo
+
+```bash
+git clone https://github.com/team/project.git
+cd project
+```
+
+![you now have a copy of the repo](images/pr-step1.en.svg)
+
+---
+
+# Step 2 · branch and commit
+
+```bash
+git switch -c feature
+git add .
+git commit -m "add feature"
+```
+
+![a new commit on your feature branch](images/pr-step2.en.svg)
+
+---
+
+# Step 3 · push the branch
+
+```bash
+git push -u origin feature
+```
+
+![the branch is now on GitHub too](images/pr-step3.en.svg)
+
+---
+
+# Step 4 · open a pull request
+
+```bash
+# on github.com, click "New pull request"
+# choose: base main  <- compare feature
+```
+
+![you ask to merge feature into main](images/pr-step4.en.svg)
+
+---
+
+# Step 5 · review, then merge
+
+```bash
+# teammates read, comment, approve
+# then click "Merge pull request"
+```
+
+![main on GitHub now has your work](images/pr-step5.en.svg)
+
+---
+
+# Step 6 · pull the merge home
+
+```bash
+git switch main
+git pull
+```
+
+![your local main matches GitHub again](images/pr-step6.en.svg)
+
+---
+
+# Notes before you merge
+
+- Pull before you push. If the remote moved, your push is rejected.
+- One branch, one idea. Small PRs are easier to review.
+- Write a clear title. Say what changed and why.
+- Do not push straight to `main`. Always open a PR.
+- Never force-push a shared branch. It rewrites other people's history.
+- Ask for a review, and wait for the checks to pass.
+
+---
+
+# The loop you will run every day
+
+- **pull** when you start, so you begin from the latest.
+- **edit** files in your working directory.
+- **add** the files you want to keep.
+- **commit** with a short message.
+- **push** to share it.
+
+---
+
+# Three habits that stop most problems
+
+- Commit often. Write messages you will still understand later.
+- Run `git status` when unsure. It only looks, it never changes anything.
+- Nothing is deleted. It is just in another of the four places.
+
+---
+
+class: title
+
+# You now know Git
+
+.subtitle[
+The rest is practice.
+]
+</textarea>
+    <script type="module">
+      var slideshow = remark.create({
+        ratio: '16:9',
+        highlightSpans: true,
+        highlightStyle: 'github',
+        slideNumberFormat: '%current%/%total%'
+      });
+
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: false });
+      slideshow.on('afterShowSlide', function () {
+        mermaid.run({
+          nodes: document.querySelectorAll('div.remark-visible pre.mermaid')
+        });
+      });
+    </script>
+  </body>
+</html>

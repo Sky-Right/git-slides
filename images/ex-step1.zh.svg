@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="300" viewBox="0 0 1160 300" font-family="Droid Serif, Georgia, serif">
+<line x1="150" y1="180" x2="240" y2="180" stroke="#1a1a1a" stroke-width="2.4"/>
+<circle cx="200" cy="180" r="13" fill="#1a1a1a"/>
+<text x="200" y="222" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="15" fill="#1a1a1a">提交 #1</text>
+<text x="200" y="252" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="17" font-weight="bold" fill="#1a1a1a">main</text>
+</svg>

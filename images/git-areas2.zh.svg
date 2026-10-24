@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="540" viewBox="0 0 1280 540" font-family="Droid Serif, Georgia, serif">
+<rect x="20" y="100" width="220" height="300" rx="14" fill="#e3edfb" stroke="#a7aeb8" stroke-width="1.5"/>
+<circle cx="130.0" cy="48" r="20" fill="#1a1a1a"/>
+<text x="130.0" y="55" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="22" fill="#ffffff">1</text>
+<text x="130.0" y="150" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">工作区</text>
+<text x="130.0" y="186" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="14" fill="#555555">你改文件的地方</text>
+<text x="130.0" y="222" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#2640c0">working tree</text>
+<rect x="360" y="100" width="220" height="300" rx="14" fill="#e7f6ec" stroke="#a7aeb8" stroke-width="1.5"/>
+<circle cx="470.0" cy="48" r="20" fill="#1a1a1a"/>
+<text x="470.0" y="55" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="22" fill="#ffffff">2</text>
+<text x="470.0" y="150" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">暂存区</text>
+<text x="470.0" y="186" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="14" fill="#555555">要提交的先放这</text>
+<text x="470.0" y="222" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#2640c0">index</text>
+<rect x="700" y="100" width="220" height="300" rx="14" fill="#fdf3d7" stroke="#a7aeb8" stroke-width="1.5"/>
+<circle cx="810.0" cy="48" r="20" fill="#1a1a1a"/>
+<text x="810.0" y="55" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="22" fill="#ffffff">3</text>
+<text x="810.0" y="150" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">本地仓库</text>
+<text x="810.0" y="186" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="14" fill="#555555">提交历史都在这</text>
+<text x="810.0" y="222" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#2640c0">.git</text>
+<text x="810.0" y="262" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="13" fill="#c05621">分支 · 合并</text>
+<rect x="1040" y="100" width="220" height="300" rx="14" fill="#f2eafc" stroke="#a7aeb8" stroke-width="1.5"/>
+<circle cx="1150.0" cy="48" r="20" fill="#1a1a1a"/>
+<text x="1150.0" y="55" text-anchor="middle" font-family="Droid Serif, Georgia, serif" font-size="22" fill="#ffffff">4</text>
+<text x="1150.0" y="150" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">远端仓库</text>
+<text x="1150.0" y="186" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="14" fill="#555555">共享的那份副本</text>
+<text x="1150.0" y="222" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#2640c0">origin</text>
+<text x="300.0" y="224" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#2640c0">git add</text>
+<polyline points="240,250 352,250" fill="none" stroke="#2640c0" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="352.0,250.0 341.0,255.5 341.0,244.5" fill="#2640c0"/>
+<text x="640.0" y="224" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#2640c0">git commit</text>
+<polyline points="580,250 692,250" fill="none" stroke="#2640c0" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="692.0,250.0 681.0,255.5 681.0,244.5" fill="#2640c0"/>
+<text x="980.0" y="224" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#2640c0">git push</text>
+<polyline points="920,250 1032,250" fill="none" stroke="#2640c0" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="1032.0,250.0 1021.0,255.5 1021.0,244.5" fill="#2640c0"/>
+<text x="980.0" y="388" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#c05621">git fetch</text>
+<polyline points="1036,350 928,350" fill="none" stroke="#c05621" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="928.0,350.0 939.0,344.5 939.0,355.5" fill="#c05621"/>
+<polyline points="810,400 470,462 150,400" fill="none" stroke="#c05621" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="150.0,400.0 161.8,396.7 159.8,407.5" fill="#c05621"/>
+<text x="470" y="452" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#c05621">git checkout</text>
+<polyline points="1150,400 640,508 110,400" fill="none" stroke="#c05621" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon points="110.0,400.0 121.9,396.8 119.7,407.6" fill="#c05621"/>
+<text x="640" y="498" text-anchor="middle" font-family="Inconsolata, 'Ubuntu Mono', Consolas, Menlo, monospace" font-size="14" fill="#c05621">git pull</text>
+</svg>
