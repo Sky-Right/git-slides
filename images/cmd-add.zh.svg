@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" font-family="Droid Serif, Georgia, serif">
-<rect x="100" y="60" width="360" height="150" rx="14" fill="#e3edfb" stroke="#a7aeb8" stroke-width="1.5"/>
-<rect x="640" y="60" width="360" height="150" rx="14" fill="#e7f6ec" stroke="#a7aeb8" stroke-width="1.5"/>
+<rect x="100" y="60" width="360" height="150" rx="16" fill="none" stroke="#777777" stroke-width="1.8" stroke-dasharray="6 5"/>
+<rect x="640" y="60" width="360" height="150" rx="16" fill="none" stroke="#777777" stroke-width="1.8" stroke-dasharray="6 5"/>
 <text x="280.0" y="132" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="26" font-weight="bold" fill="#1a1a1a">工作区</text>
 <text x="280.0" y="168" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="15" fill="#555555">你改文件的地方</text>
 <text x="820.0" y="132" text-anchor="middle" font-family="Droid Serif, Georgia, 'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC', sans-serif" font-size="26" font-weight="bold" fill="#1a1a1a">暂存区</text>
